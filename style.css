@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #eef7f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.logo {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #087f8c;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.language-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.language-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.language-btn {
+    padding: 14px 30px;
+    border: 2px solid #087f8c;
+    background: white;
+    color: #087f8c;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.language-btn:hover {
+    background: #087f8c;
+    color: white;
+}
+
+.continue-btn {
+    margin-top: 35px;
+    padding: 15px 45px;
+    border: none;
+    background: #087f8c;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.continue-btn:hover {
+    background: #05636d;
+    transform: scale(1.03);
+}
+
+.security {
+    margin-top: 30px;
+    color: #666;
+    font-size: 14px;
+}

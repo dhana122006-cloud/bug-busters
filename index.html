@@ -1,0 +1,49 @@
+<div class="container">
+
+    <div class="logo">🏥</div>
+
+    <h1>Multilingual Healthcare Assistant</h1>
+
+    <p class="subtitle">
+        Your healthcare information and safety assistant
+    </p>
+
+    <p class="language-title">
+        Select your preferred language
+    </p>
+
+    <div class="language-buttons">
+
+        <button class="language-btn"
+                onclick="selectLanguage('English')">
+            English
+        </button>
+
+        <button class="language-btn"
+                onclick="selectLanguage('Tamil')">
+            தமிழ்
+        </button>
+
+        <button class="language-btn"
+                onclick="selectLanguage('Hindi')">
+            हिन्दी
+        </button>
+
+    </div>
+
+    <p id="selectedLanguage">
+        Selected Language: None
+    </p>
+
+    <button class="continue-btn"
+            onclick="continueToApp()">
+        Continue
+    </button>
+
+    <p class="security">
+        🔒 Your health information is handled securely
+    </p>
+
+</div>
+
+<script src="js/script.js"></script>
